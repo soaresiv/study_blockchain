@@ -11,17 +11,18 @@
 
 using namespace std;
 
-class Blockchain {
+class Blockchain
+{
 public:
-    Blockchain();
+  Blockchain();
 
-    void AddBlock(Block bNew);
+  void AddBlock(Block bNew);
 
 private:
-    uint32_t _nDifficulty;
-    vector<Block> _vChain;
+  uint32_t _nDifficulty;
+  vector<Block> _vChain;
 
-    Block _GetLastBlock() const;
+  Block _GetLastBlock() const;
 };
 
-#endif //TESTCHAIN_BLOCKCHAIN_H
+#endif//TESTCHAIN_BLOCKCHAIN_H
