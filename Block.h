@@ -30,4 +30,4 @@ private:
   string _CalculateHash() const;
 };
 
-#endif//TESTCHAIN_BLOCK_H
+#endif// TESTCHAIN_BLOCK_H

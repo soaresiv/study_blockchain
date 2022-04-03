@@ -25,4 +25,4 @@ private:
   Block _GetLastBlock() const;
 };
 
-#endif//TESTCHAIN_BLOCKCHAIN_H
+#endif// TESTCHAIN_BLOCKCHAIN_H
