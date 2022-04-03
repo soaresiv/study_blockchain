@@ -11,22 +11,23 @@
 
 using namespace std;
 
-class Block {
+class Block
+{
 public:
-    string sHash;
-    string sPrevHash;
+  string sHash;
+  string sPrevHash;
 
-    Block(uint32_t nIndexIn, const string &sDataIn);
+  Block(uint32_t nIndexIn, const string &sDataIn);
 
-    void MineBlock(uint32_t nDifficulty);
+  void MineBlock(uint32_t nDifficulty);
 
 private:
-    uint32_t _nIndex;
-    uint32_t _nNonce;
-    string _sData;
-    time_t _tTime;
+  uint32_t _nIndex;
+  uint32_t _nNonce;
+  string _sData;
+  time_t _tTime;
 
-    string _CalculateHash() const;
+  string _CalculateHash() const;
 };
 
-#endif //TESTCHAIN_BLOCK_H
+#endif// TESTCHAIN_BLOCK_H
