@@ -21,7 +21,6 @@ runs:
   args:
     - --workplace ${{ inputs.workplace }}
     - --fallback ${{ inputs.fallback }}
-    - --apply ${{ inputs.apply }}
 
 branding:
   icon: "mic"
